@@ -1,10 +1,9 @@
 #!/bin/sh
-
-echo "Is today the weekend?"
+echo "Is today the weekend??"
 read answer
 
 if [ "$answer" = "yes" ]; then
-   echo "Yay! go relax!"
+   echo "Time to relax!"
 else
-   echo "You got this! the weekend is almost here!"
+   echo "Aw man, Gotta get through the week!"
 fi
